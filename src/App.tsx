@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useLayoutEffect, useState } from "react";
-import audioFile from "./assets/DO YOU LOVE ME.mp3";
+import audioFile from "/will-you-be-my-valentine/assets/DO YOU LOVE ME.mp3";
 
 export default function Page() {
   const [step, setStep] = useState(1);
